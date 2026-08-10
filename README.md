@@ -2,12 +2,63 @@
 
 Lab documenting a consistent device and hostname naming standard across IT systems.
 
+The exact naming structure can vary between organizations. Some environments may use location, department, site, platform, device role, or other identifiers. The important goal is to create a naming standard that is consistent, easy to understand, and useful to the people responsible for managing the systems.
+
+A standardized hostname does not replace an asset inventory, monitoring platform, or configuration management system. Instead, it provides a common device identity that can be referenced across those systems during troubleshooting, monitoring, ticketing, documentation, and administration.
+
 Objective
 - Create a consistent device and hostname naming standard.
 - Apply the standard across different types of IT systems.
 - Compare intentional device names with network-discovery results.
 - Make devices easier to identify during troubleshooting and administration.
 - Document a naming approach that can scale to larger environments.
+
+**Naming Format**
+
+`OWNER/DEPARTMENT` – `PLATFORM` – `TYPE/ROLE` – `SEQUENCE`
+
+Each section of the name provides useful information about the system.
+
+`OWNER/DEPARTMENT`: Identifies the person, department, group, or administrative owner responsible for the device.
+
+`PLATFORM`: Identifies the operating system or general technology platform.
+
+`TYPE/ROLE`: Identifies what the device is or what function it performs.
+
+`SEQUENCE`: Provides a unique number when multiple devices use the same general classification.
+
+For example:
+
+`FIN-WIN-LAP-01`
+
+could represent:
+
+`FIN` — Finance
+`WIN` — Windows
+`LAP` — Laptop
+`01` — First device in that category
+
+Another example:
+
+`ITS-WIN-DC-01`
+
+could represent:
+
+`ITS` — Information Technology Services
+`WIN` — Windows
+`DC` — Domain Controller
+`01` — First domain controller in that naming group
+
+For network infrastructure:
+
+FAM-NET-RTR-01
+
+could represent:
+
+`FAM` — Family infrastructure
+`NET` — Network device
+`RTR` — Router
+`01` — First router in that category
 
 **Spectrum Device Inventory**
 
@@ -72,4 +123,14 @@ Objective
 - Hardware details and device names serve different purposes.
 - Naming standards can be adapted to different platforms and device types.
 - Existing systems should not be renamed without considering the impact of the change.
+
+**Business Impact**
+
+**Skills Demonstrated**
+
+**Summary**
+
+Navigation
+
+[`Back to GitHub Profile`](https://www.github.com/cbueker-it)
 
