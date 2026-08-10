@@ -33,10 +33,10 @@ For example:
 
 could represent:
 
-`FIN` — Finance
-`WIN` — Windows
-`LAP` — Laptop
-`01` — First device in that category
+- `FIN` — Finance
+- `WIN` — Windows
+- `LAP` — Laptop
+- `01` — First device in that category
 
 Another example:
 
@@ -44,10 +44,10 @@ Another example:
 
 could represent:
 
-`ITS` — Information Technology Services
-`WIN` — Windows
-`DC` — Domain Controller
-`01` — First domain controller in that naming group
+- `ITS` — Information Technology Services
+- `WIN` — Windows
+- `DC` — Domain Controller
+- `01` — First domain controller in that naming group
 
 For network infrastructure:
 
@@ -55,10 +55,10 @@ FAM-NET-RTR-01
 
 could represent:
 
-`FAM` — Family infrastructure
-`NET` — Network device
-`RTR` — Router
-`01` — First router in that category
+- `FAM` — Family infrastructure
+- `NET` — Network device
+- `RTR` — Router
+- `01` — First router in that category
 
 **Spectrum Device Inventory**
 
