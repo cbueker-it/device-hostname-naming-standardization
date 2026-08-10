@@ -133,7 +133,7 @@ However, more information does not always make a hostname better. Device names s
 **Android Device Naming**
 
 - Shows an intentionally configured Android device name using the same general naming structure.
-- Uses AND to identify the Android platform while retaining the device model separately.
+- Uses `AND` to identify the Android platform while retaining the device model separately.
 - Demonstrates that the standard can extend beyond traditional computers to mobile endpoints.
 
 <img src="images1/05-android-device-naming.png" alt="Android Device Naming" width="700"/>
@@ -142,7 +142,7 @@ However, more information does not always make a hostname better. Device names s
 **Router Device Naming**
 
 - Shows an intentionally assigned administrative name identifying the device as a network router.
-- Uses NET and RTR to describe the device category and role.
+- Uses `NET` and `RTR` to describe the device category and role.
 - Demonstrates that network infrastructure can be included in the same broader naming standard.
 
 <img src="images1/06-router-device-naming.png" alt="Router Device Naming" width="700"/>
