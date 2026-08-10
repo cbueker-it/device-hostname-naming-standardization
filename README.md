@@ -2,7 +2,7 @@
 
 Lab documenting a consistent device and hostname naming standard across IT systems.
 
-The naming structure used for hostnames and devices most likely vary between businesses and organizations. Some environments may use location, department, site, platform, device type, role, or other identifiers. The main goal when creating a naming standard is that it is consistent, easy to understand, easy to identify, and useful to the administrators and people responsible for managing the systems.
+The naming structure used for hostnames and devices vary between businesses and organizations. Some environments may use location, department, site, platform, device type, role, or other identifiers. The main goal when creating a naming standard is that it is consistent, easy to understand, easy to identify, and useful to the administrators and people responsible for managing the systems.
 
 A standardized hostname does not replace a formal asset inventory, monitoring platform, or configuration management system. Instead, the goal is to provide a reliable and standardized method of device identification that can be referenced across different systems. This can improve troubleshooting, monitoring, ticketing, documentation, and the overall administration of IT systems.
 
