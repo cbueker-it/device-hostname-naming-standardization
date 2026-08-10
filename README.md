@@ -114,9 +114,9 @@ However, more information does not always make a hostname better. Device names s
 
 **Debian Hostname Validation**
 
-- Confirms the same structured hostname through both hostname and /etc/hostname.
+- Confirms the same structured hostname through both `hostname` and `/etc/hostname`.
 - Verifies that the device name is configured persistently at the operating-system level.
-- Confirms Debian GNU/Linux 13 as the platform represented by the DEB identifier.
+- Confirms Debian GNU/Linux 13 as the platform represented by the `DEB` identifier.
 
 <img src="images1/03-debian-hostname-validation.png" alt="Debian Hostname Validation" width="700"/>
 
