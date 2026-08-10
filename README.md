@@ -6,6 +6,8 @@ The naming structure used for hostnames and devices vary between businesses and 
 
 A standardized hostname does not replace a formal asset inventory, monitoring platform, or configuration management system. Instead, the goal is to provide a reliable and standardized method of device identification that can be referenced across different systems. This can improve troubleshooting, monitoring, ticketing, documentation, and the overall administration of IT systems.
 
+When developing the naming standard for my home network, I also drew from my professional experience working in infrastructure operations in a Command Center for a major corporation. In that environment, clear and consistent system identification is critical because the same device may need to be referenced across monitoring tools, tickets, documentation, and different technical teams. That experience helped shape the way I approached this lab and reinforced the importance of having a predictable naming standard before troubleshooting begins.
+
 Objective
 - Create a consistent device and hostname naming standard.
 - Apply the standard across different types of IT systems.
