@@ -15,7 +15,7 @@ Objective
 
 **Naming Format**
 
-The naming structure shown in this lab is an example rather than a universal standard. Each organization should develop a naming convention that reflects its own business needs, environment, locations, platforms, administrative structure, and operational requirements. The important goal is that the standard remains consistent, understandable, scalable, and useful to the people responsible for managing the systems.
+The naming structure I use as an example in this lab is just that—an example. It is not a universal standard. Each small business or organization should develop a naming convention that reflects the needs of the business, its environment, locations, administrative structure, and operational requirements. The main thing to keep in mind is that the standard remains consistent, understandable, scalable, and useful to the people responsible for administering and managing the systems.
 
 `OWNER/DEPARTMENT` – `PLATFORM` – `TYPE/ROLE` – `SEQUENCE`
 
@@ -62,9 +62,19 @@ could represent:
 - `RTR` — Router
 - `01` — First router in that category
 
+Naming Standard Design Principles
+
+- Consistency: Devices should follow the same documented naming structure throughout the environment.
+- Clarity: Names should be easy for administrators and support personnel to understand and identify.
+- Uniqueness: Each managed device should have a distinct name that prevents confusion with other systems.
+- Stability: Naming fields should use information that is unlikely to change frequently.
+- Scalability: The standard should allow additional devices, locations, and system types to be added as the environment grows.
+- Relevance: Each part of the name should provide useful administrative information rather than adding unnecessary detail.
+- Compatibility: Names should remain reasonably short and use characters and structures that work reliably across operating systems and management platforms.
+
 **Location and Site Identifiers**
 
-Larger organizations may also include a location or site identifier in the naming standard. This can be useful when a business operates across multiple cities, states, offices, or countries.
+Larger organizations may also include a location or site identifier in the naming standard they choose for the business. This can be especially helpful when an organization operates across multiple cities, states, offices, or countries because the device name can immediately provide some context about where the system belongs.
 
 For example:
 
@@ -81,7 +91,7 @@ A larger environment could also use a state or regional identifier, such as:
 
 `OH-CIN-WIN-LAP-01`
 
-However, more information does not always make a hostname better. Device names should remain readable and reasonably short. In many environments, a short site code such as CIN may provide enough location information, while the full address, state, building, floor, and asset details are maintained in the asset inventory or configuration management system.
+However, more information does not always make a hostname better. Device names should remain readable and reasonably short. In many environments, a short site code such as `CIN` may provide enough location information, while the full address, state, building, floor, and asset details are maintained in the asset inventory or configuration management system.
 
 **Spectrum Device Inventory**
 
