@@ -96,7 +96,7 @@ However, more information does not always make a hostname better. Device names s
 **Spectrum Device Inventory**
 
 - Highlights structured names across Linux, Android, printer, and laptop devices.
-- Uses short platform and device-type identifiers such as DEB, AND, PRT, UBU, DES, and LAP.
+- Uses short platform and device-type identifiers such as `DEB`, `AND`, `PRT`, `UBU`, `DES`, and `LAP`.
 - Demonstrates how one naming approach can make different types of devices easier to identify within a centralized inventory.
 
 <img src="images1/01-spectrum-device-inventory.png" alt="Spectrum Device Inventory" width="700"/>
@@ -104,9 +104,9 @@ However, more information does not always make a hostname better. Device names s
 
 **Network Discovery with Nmap**
 
-- Identifies the local 192.168.1.0/24 subnet and uses Nmap to discover active hosts.
+- Identifies the local `192.168.1.x/24` subnet and uses Nmap to discover active hosts.
 - Shows intentionally structured hostnames for the Ubuntu and Debian systems.
-- Also returns provider or manufacturer-style names such as SAX2V1R.lan and NPI...lan.
+- Also returns provider or manufacturer-style names such as `SAX2V1R.lan` and `NPI...lan`.
 - Demonstrates that network discovery can identify reachable systems without guaranteeing a consistent administrative naming standard.
 
 <img src="images1/02-network-discovery-nmap.png" alt="Network Discovery with Nmap" width="700"/>
