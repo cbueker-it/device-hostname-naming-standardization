@@ -159,9 +159,9 @@ However, more information does not always make a hostname better. Device names s
 
 **Business Impact**
 
-A consistent device and hostname naming standard gives administrators a common way to identify systems across different IT platforms. When a device appears in a monitoring alert, support ticket, asset inventory, directory service, backup system, or technical document, a predictable name can make it easier to identify the correct system and understand its role.
+A consistent and reliable device and hostname naming standard gives systems administrators a common way to identify systems and devices across various IT platforms. When a device appears in a monitoring alert, support ticket, asset inventory, directory service, or another administrative system, a predictable name makes it much easier to identify the correct device, understand its role, and troubleshoot from there.
 
-This can reduce confusion during troubleshooting and incident response, especially when multiple systems need to be checked across different administrative tools. The naming standard does not replace the information stored in those systems, but it provides a reliable point of reference that helps connect the information together.
+This can reduce confusion and friction, help standardize troubleshooting, and improve incident response, especially when multiple systems and administrative tools need to be checked before a problem can be fully understood. The naming standard does not replace the information stored in those systems, but it provides a reliable point of reference that helps administrators gather information, connect the different systems together, and troubleshoot more efficiently.
 
 **Skills Demonstrated**
 
@@ -175,11 +175,11 @@ This can reduce confusion during troubleshooting and incident response, especial
 
 **Summary**
 
-This project documents the development and use of a consistent device and hostname naming standard across different types of IT systems. I reviewed device names through a centralized device inventory, compared those names with network-discovery results, and validated intentionally configured names across Debian Linux, Windows Server, Android, and network infrastructure.
+I used this project as an opportunity to document how consistent device and hostname naming standards can be used across various IT systems. I reviewed devices through a centralized device inventory, compared those names with network-discovery results, and used my Debian system, Windows Server environment, Android device, and network infrastructure to demonstrate how device names can be intentionally configured and validated across different platforms.
 
-The project also demonstrated that network discovery does not always provide the same level of device identification as an intentionally configured naming standard. A consistent naming structure gives administrators a clearer and more reliable way to identify systems across troubleshooting, monitoring, ticketing, inventory management, documentation, and other administrative platforms.
+This project also demonstrated that network discovery does not always provide the same level of reliable device identification as a naming standard intentionally designed by the systems administrator. A consistent and reliable naming structure gives administrators a clearer way to identify devices while troubleshooting, monitoring, documenting, and managing the environment.
 
-The exact naming structure may vary between organizations, but the main principle remains the same: device names should be consistent, clear, useful, and designed around the needs of the people responsible for managing the environment.
+The exact naming structure will vary between businesses because each environment has different needs. The main principle remains the same: device names should be consistent, clear, useful, and intentionally designed around the needs of the business and the people responsible for administering the IT environment.
 
 Navigation
 
