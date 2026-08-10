@@ -15,7 +15,7 @@ Objective
 
 **Naming Format**
 
-The naming structure I use as an example in this lab is just that—an example. It is not a universal standard. Each small business or organization should develop a naming convention that reflects the needs of the business, its environment, locations, administrative structure, and operational requirements. The main thing to keep in mind is that the standard remains consistent, understandable, scalable, and useful to the people responsible for administering and managing the systems.
+The naming structure I use as an example in this lab is just that: an example. It is not a universal standard. Each small business or organization should develop a naming convention that reflects the needs of the business, its environment, locations, administrative structure, and operational requirements. The main thing to keep in mind is that the standard remains consistent, understandable, scalable, and useful to the people responsible for administering and managing the systems.
 
 `OWNER/DEPARTMENT` – `PLATFORM` – `TYPE/ROLE` – `SEQUENCE`
 
