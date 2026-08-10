@@ -2,9 +2,9 @@
 
 Lab documenting a consistent device and hostname naming standard across IT systems.
 
-The exact naming structure can vary between organizations. Some environments may use location, department, site, platform, device role, or other identifiers. The important goal is to create a naming standard that is consistent, easy to understand, and useful to the people responsible for managing the systems.
+he naming structure used for hostnames and devices will vary between businesses and organizations. Some environments may use location, department, site, platform, device type, role, or other identifiers. The main goal when creating a naming standard is that it is consistent, easy to understand, easy to identify, and useful to the administrators and people responsible for managing the systems.
 
-A standardized hostname does not replace an asset inventory, monitoring platform, or configuration management system. Instead, it provides a common device identity that can be referenced across those systems during troubleshooting, monitoring, ticketing, documentation, and administration.
+A standardized hostname does not replace a formal asset inventory, monitoring platform, or configuration management system. Instead, the goal is to provide a reliable and standardized method of device identification that can be referenced across different systems. This can improve troubleshooting, monitoring, ticketing, documentation, and the overall administration of IT systems.
 
 Objective
 - Create a consistent device and hostname naming standard.
@@ -59,6 +59,27 @@ could represent:
 - `NET` — Network device
 - `RTR` — Router
 - `01` — First router in that category
+
+**Location and Site Identifiers**
+
+Larger organizations may also include a location or site identifier in the naming standard. This can be useful when a business operates across multiple cities, states, offices, or countries.
+
+For example:
+
+`CIN-WIN-LAP-01`
+
+could represent:
+
+- `CIN` — Cincinnati site
+- `WIN` — Windows
+- `LAP` — Laptop
+- `01` — First laptop in that category
+
+A larger environment could also use a state or regional identifier, such as:
+
+`OH-CIN-WIN-LAP-01`
+
+However, more information does not always make a hostname better. Device names should remain readable and reasonably short. In many environments, a short site code such as CIN may provide enough location information, while the full address, state, building, floor, and asset details are maintained in the asset inventory or configuration management system.
 
 **Spectrum Device Inventory**
 
@@ -126,9 +147,27 @@ could represent:
 
 **Business Impact**
 
+A consistent device and hostname naming standard gives administrators a common way to identify systems across different IT platforms. When a device appears in a monitoring alert, support ticket, asset inventory, directory service, backup system, or technical document, a predictable name can make it easier to identify the correct system and understand its role.
+
+This can reduce confusion during troubleshooting and incident response, especially when multiple systems need to be checked across different administrative tools. The naming standard does not replace the information stored in those systems, but it provides a reliable point of reference that helps connect the information together.
+
 **Skills Demonstrated**
 
+- Device and hostname standardization
+- Windows and Linux systems administration
+- Network discovery and subnet identification
+- Active Directory infrastructure review
+- Endpoint and network-device identification
+- Asset management and inventory concepts
+- Technical documentation and evidence sanitization
+
 **Summary**
+
+This project documents the development and use of a consistent device and hostname naming standard across different types of IT systems. I reviewed device names through a centralized device inventory, compared those names with network-discovery results, and validated intentionally configured names across Debian Linux, Windows Server, Android, and network infrastructure.
+
+The project also demonstrated that network discovery does not always provide the same level of device identification as an intentionally configured naming standard. A consistent naming structure gives administrators a clearer and more reliable way to identify systems across troubleshooting, monitoring, ticketing, inventory management, documentation, and other administrative platforms.
+
+The exact naming structure may vary between organizations, but the main principle remains the same: device names should be consistent, clear, useful, and designed around the needs of the people responsible for managing the environment.
 
 Navigation
 
