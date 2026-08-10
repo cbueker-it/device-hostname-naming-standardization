@@ -53,7 +53,7 @@ could represent:
 
 For network infrastructure:
 
-FAM-NET-RTR-01
+`FAM-NET-RTR-01`
 
 could represent:
 
@@ -62,15 +62,15 @@ could represent:
 - `RTR` — Router
 - `01` — First router in that category
 
-Naming Standard Design Principles
+**Naming Standard Design Principles**
 
-- Consistency: Devices should follow the same documented naming structure throughout the environment.
-- Clarity: Names should be easy for administrators and support personnel to understand and identify.
-- Uniqueness: Each managed device should have a distinct name that prevents confusion with other systems.
-- Stability: Naming fields should use information that is unlikely to change frequently.
-- Scalability: The standard should allow additional devices, locations, and system types to be added as the environment grows.
-- Relevance: Each part of the name should provide useful administrative information rather than adding unnecessary detail.
-- Compatibility: Names should remain reasonably short and use characters and structures that work reliably across operating systems and management platforms.
+- **Consistency**: Devices should follow the same documented naming structure throughout the environment.
+- **Clarity**: Names should be easy for administrators and support personnel to understand and identify.
+- **Uniqueness**: Each managed device should have a distinct name that prevents confusion with other systems.
+- **Stability**: Naming fields should use information that is unlikely to change frequently.
+- **Scalability**: The standard should allow additional devices, locations, and system types to be added as the environment grows.
+- **Relevance**: Each part of the name should provide useful administrative information rather than adding unnecessary detail.
+- **Compatibility**: Names should remain reasonably short and use characters and structures that work reliably across operating systems and management platforms.
 
 **Location and Site Identifiers**
 
