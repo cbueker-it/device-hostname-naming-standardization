@@ -15,6 +15,8 @@ Objective
 
 **Naming Format**
 
+The naming structure shown in this lab is an example rather than a universal standard. Each organization should develop a naming convention that reflects its own business needs, environment, locations, platforms, administrative structure, and operational requirements. The important goal is that the standard remains consistent, understandable, scalable, and useful to the people responsible for managing the systems.
+
 `OWNER/DEPARTMENT` – `PLATFORM` – `TYPE/ROLE` – `SEQUENCE`
 
 Each section of the name provides useful information about the system.
